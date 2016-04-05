@@ -20,7 +20,7 @@ public class FramePrincipal extends javax.swing.JFrame {
      */
     public FramePrincipal() {
         initComponents();
-//        manejadorFramePrincipal = new ManejadorFramePrincipal(this);
+        manejadorFramePrincipal = new ManejadorFramePrincipal(this);
         this.calcular.addActionListener(manejadorFramePrincipal);
     }
 
